@@ -5,7 +5,7 @@
       "goal": "clean install"
     },
     "run": {
-      "goal": "spring-boot:run"
+      "goal": "java -jar target/greeting-0.0.1-SNAPSHOT.jar"
     }
   },
   "java": {
