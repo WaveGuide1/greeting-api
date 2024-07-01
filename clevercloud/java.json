@@ -1,0 +1,6 @@
+{
+  "deploy": {
+    "start": "mvn clean package",
+    "build": "mvn clean install"
+  }
+}
