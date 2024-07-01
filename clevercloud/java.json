@@ -1,14 +1,6 @@
 {
   "deploy": {
-    "strategy": "maven",
-    "build": {
-      "goal": "clean install"
-    },
-    "run": {
-      "goal": "spring-boot:run"
-    }
-  },
-  "java": {
-    "version": "17"
+    "build": "mvn clean install",
+    "run": "./mvnw spring-boot:run"
   }
 }
